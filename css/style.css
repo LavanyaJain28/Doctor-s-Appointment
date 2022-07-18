@@ -15,7 +15,7 @@ a.navbar-brand{
 
 /* Header */
 #home{
-    background-image: url("images/bg2.jpg");
+    background-image:url("images/bg2.jpg");
     height: 36rem;
     background-repeat: no-repeat;
     background-size: cover;
