@@ -1,0 +1,123 @@
+/* google fonts */
+
+/* CSS rules to specify families
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Sacramento', cursive; */
+
+a.navbar-brand{
+    font-weight: 500;
+}
+
+
+/* Header */
+#home{
+    background-image: url("/images/bg2.jpg");
+    height: 36rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    font-display:unset;
+    font-family: 'Montserrat', sans-serif;
+    color:darkblue;
+    
+}
+.header-heading{
+    padding-left: 20%;
+    padding-top: 10%;
+    color:darkblue;
+    font-family: 'Montserrat', sans-serif;
+}
+.appoint{
+    padding-left: 20%;
+    /* padding-top: 2%; */
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color:blue;
+}
+#home button{
+    margin-left: 20%;
+}
+
+/* article section  */
+#cards{
+    background-color: #5889e4;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#cards h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    color: black;
+}
+/* carousal */
+#services{
+    background-color:aliceblue;
+  }
+ 
+  .services-text{
+    color: #3333a0;
+    font-family: "Montserrat";
+    padding-bottom: 3rem;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+  }
+  .carousel-inner{
+    padding: 12% 24% 12% 24%;
+    
+}
+/* LastImage section */
+
+#lastImg{
+    width: 100%;
+}
+  
+  /* doctors.css */
+  @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+#doctor-body {
+    font-family: 'Maven Pro', sans-serif;
+
+  background-color: #eee;
+}
+
+#doctor-body .add{
+
+  border-radius: 20px;
+}
+
+#doctor-body .card{
+
+  border:none;
+  border-radius: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+#doctor-body .card:hover{
+
+   -webkit-box-shadow: 3px 5px 17px -4px #777777; 
+box-shadow: 3px 5px 17px -4px #777777;
+}
+
+#doctor-body .ratings i {
+
+  color: green;
+}
+
+#doctor-body .apointment button{
+
+  border-radius: 20px;
+  background-color: #eee;
+  color: #000;
+  border-color: #eee;
+  font-size: 13px;
+}
